@@ -1,0 +1,59 @@
+/* estilos para los enlaces */
+a:link{
+    color: tomato;
+    text-decoration: none;
+    background-color: black;
+
+}
+a:visited{
+    color: whitesmoke;
+}
+
+a:active{
+    background-color: teal;
+    padding: 1rem;
+    margin: 1rem;
+    text-shadow: 13px 13px 6px black;
+    box-shadow: 13px 13px 10px black;
+}
+
+a:hover{
+    font-size: 2rem;
+}
+
+.caja{
+    margin: 2rem;
+    background-color: teal;
+     width: 100px;
+     height: 100px;
+
+}
+
+.caja:hover{
+
+    background-color: tomato;
+    box-shadow: 13px 13px 10px black;
+    border-radius: 100px;
+    opacity: 0.2;
+
+}
+
+/* codigo de ejemplo 2 */
+
+.parrafos p:first-child{
+    background-color: tomato;
+
+}
+
+/* codigo de ejemplo */
+
+.parrafoDos div:first-of-type{
+
+    color: tomato;
+}
+
+/*  codigo de ejemplo */
+
+.lista :nth-child(odd){
+    background-color: tomato;
+}
